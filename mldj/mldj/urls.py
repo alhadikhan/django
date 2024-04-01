@@ -17,8 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from ml import views
+from chapri import views as b
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('',views.ml)
+    path('',views.ml),
+    path('dl/',views.software),
+    path("add/",views.engineer),
+    path("chapri/",b.chaprix),
 ]
