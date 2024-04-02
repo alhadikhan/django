@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "ml",
-    "chapri"
+    "chapri",
+    "data_analysis",
+    "deeplearning",
+    "neural_network",
 ]
 
 MIDDLEWARE = [
