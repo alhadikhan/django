@@ -5,4 +5,9 @@ def ml(request):
 def software(request):
     return render(request,"ml/sft.html")
 def ds(request):
-    return render(request,"ml/ds.html")
+    times=100
+    number=123
+    sc='scientist'
+    math="Mathematics"
+    grt={'x':times,'y':number,'s':sc,'m':math}
+    return render(request,"ml/ds.html",context=grt)
